@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wafaa Obady | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fefefe;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #fff;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #c94f7c;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #c94f7c;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about, .projects, .contact {
+      margin-bottom: 4rem;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .project {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #c94f7c;
+      color: #fff;
+    }
+    .contact form input, .contact form textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .contact form button {
+      background: #c94f7c;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Wafaa Obady</h1>
+    <p>Content Creator & Video Editor</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I'm Wafaa, a passionate content creator and editor. I specialize in storytelling through engaging visuals, social media content, and video editing that connects brands with their audiences. Let's create something magical together.</p>
+  </section>
+
+  <section id="projects" class="projects" data-aos="fade-up">
+    <h2>My Work</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>Instagram Reels</h3>
+        <p>High-impact, engaging content for beauty brands and influencers.</p>
+      </div>
+      <div class="project">
+        <h3>Product Shoots</h3>
+        <p>Creative visual campaigns that highlight every detail and vibe.</p>
+      </div>
+      <div class="project">
+        <h3>UGC & Storytelling</h3>
+        <p>Authentic, voice-driven storytelling pieces that inspire and convert.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact" data-aos="fade-up">
+    <h2>Contact</h2>
+    <p>Let’s work together! Fill out the form or reach me on Instagram @wafaa.obady</p>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Wafaa Obady. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
